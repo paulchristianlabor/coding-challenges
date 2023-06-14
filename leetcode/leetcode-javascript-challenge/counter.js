@@ -30,12 +30,13 @@ At most 1000 calls to counter() will be made
 
 */
 
-/* My Code Starts Here Below */
-
 /**
  * @param {number} n
  * @return {Function} counter
  */
+
+/* My Code Starts Here Below */
+
 var createCounter = function(n) {
     return function() {
     return n++    
