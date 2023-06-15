@@ -2,6 +2,8 @@
 
 /* My Code Starts Here Below */
 
-var a = [32 , 33 , 11 , 23 , 8]
-a.sort()
-console.log(a)
+var numbers = [32, 33, 11, 23, 8];
+numbers.sort(function(a, b) {
+  return a - b;
+});
+console.log(numbers);
