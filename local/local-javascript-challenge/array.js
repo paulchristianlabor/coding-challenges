@@ -7,10 +7,9 @@ Display array in a list in HTML just using javascript
 /* My Code Starts Here */
 
 const array = ["one" , "two" , "three" , "four" , "five"]
-let li = document.createElement("li")
-let number = ""
+const numList = document.getElementById('number-list')
 for (let i = 0; i<array.length; i++){
-    number += array[i]
+    const li = document.createElement('li')
+    li.innerHTML = array[i]
+    numList.appendChild(li)
 }
-li.appendChild(number)
-number.innerHTML = array
