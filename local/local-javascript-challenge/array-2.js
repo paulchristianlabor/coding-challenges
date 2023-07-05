@@ -14,6 +14,6 @@ array.pop("two")
 
 console.log(array)
 
-array.fill("one")
+array[0] = ("one")
 
 console.log(array)
