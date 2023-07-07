@@ -4,6 +4,8 @@ Make an array
 
 */
 
+/* My Code Starts Here */
+
 const array = ["one" , "two" , "three" , "four" , "five"]
 
 array.push("two")
