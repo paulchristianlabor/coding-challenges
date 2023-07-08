@@ -10,3 +10,6 @@ Expected output:
 
 /* My Code Starts Here */
 
+const myColors = ["Red", "Green", "White", "Black"]
+
+console.log(myColors.join())
