@@ -25,4 +25,4 @@ function checkObject(arr) {
 const array = [1, 2, 3];
 
 // call the function
-checkObject(1);
+checkObject([1 , 2 , 3]);
