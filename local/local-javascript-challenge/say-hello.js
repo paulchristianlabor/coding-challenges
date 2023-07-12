@@ -5,6 +5,7 @@ make a function names sayHello, which accepts a number n and logs the word "hell
 */
 
 /* My Code Starts Here */
+
 function sayHello(n) {
     for (let i = 0; i < n; i++) {
       console.log("hello");
